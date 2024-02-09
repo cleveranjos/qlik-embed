@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script crossorigin="anonymous" type="application/javascript"
+        src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components" data-host="https://tenant.us.qlikcloud.com"
+        data-web-integration-id="_BJZ6XoVXRlMAW3pbYfbDSE-UR65d9k3" data-cross-site-cookies="true">
+        </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="column" style="width: 20% !important">
+        <img src="https://media.licdn.com/dms/image/D4E0BAQGKVLjY_cgILA/company-logo_200_200/0/1705409300633/qlik_logo?e=1715817600&v=beta&t=qRraPvijfQimI5qrRdxMezmsIJ592vA6Fa37wWxI98c"
+            width=100px height=100px>
+
+    </div>
+    <div class="column" style="float: right;">
+        <div class="header">Embedding Qlik Objects using qlik-embed</div>
+    </div>
+    <!-- Header -->
+
+    <div class="column viz">
+        <qlik-embed ui="analytics/chart" object-id="jCFJJ" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"></qlik-embed>
+    </div>
+
+    <div class="column viz" style="float: right;">
+        <qlik-embed ui="analytics/chart" object-id="NkMp" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"></qlik-embed>
+    </div>
+
+</body>
+
+</html>
